@@ -14,6 +14,8 @@ class Program
             Console.WriteLine(numbers[i]);
         }
         
+        
+        
         List<string> names = new List<string>();
         
         names.Add("Brianna");
@@ -24,6 +26,15 @@ class Program
         {
             Console.WriteLine(name);
         }
+
+
+
+        for (int i = 0; i < names.Count; i++)
+        {
+            Console.WriteLine(names[i]);
+        }
+        
+        
         
     }
 }
