@@ -67,8 +67,16 @@ class Program
             Console.WriteLine("Please enter a valid integer. ");
         }
         
+        /*
+         Why is input validation preferred over try-catch when possible?
+            Input validation is preferred over try-catch when possible because try-catch usually runs after the error happened and input validation checks for errors before the errors are executed.
+         
+        Why is try-catch still necessary in some cases?
+            try-catch is still necessary in some cases because it can prevent errors from crashing the program 
+          
+        How did debugging help you understand loop behavior?
+            Debugging helped me understand loop behavior because it helped me see and understand each step after it's executed
         
-        
-
+        */
     }
 }
