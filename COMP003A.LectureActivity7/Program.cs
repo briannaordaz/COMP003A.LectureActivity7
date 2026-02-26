@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -12,5 +13,17 @@ class Program
         {
             Console.WriteLine(numbers[i]);
         }
+        
+        List<string> names = new List<string>();
+        
+        names.Add("Brianna");
+        names.Add("Daniela");
+        names.Add("Ashley");
+
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
+        
     }
 }
