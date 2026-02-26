@@ -56,8 +56,16 @@ class Program
         {
             Console.WriteLine("Not A Number. ");
         }
-        
-        
+
+
+        try
+        {
+            int userInputInt = int.Parse(userInput);
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Please enter a valid integer. ");
+        }
         
         
         
