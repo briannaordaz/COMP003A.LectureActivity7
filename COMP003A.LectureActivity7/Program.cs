@@ -36,5 +36,31 @@ class Program
         
         
         
+        Console.WriteLine("Enter a number (1-3): ");
+        string userInput = Console.ReadLine();
+        
+        if (int.TryParse(userInput, out int number))
+        {
+
+
+            if (number >= 1 && number <= 3)
+            {
+                Console.WriteLine("Number Successfully Entered!! ");
+            }
+            else
+            {
+                Console.WriteLine("Number Not Valid. ");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Not A Number. ");
+        }
+        
+        
+        
+        
+        
+
     }
 }
